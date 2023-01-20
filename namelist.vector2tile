@@ -9,7 +9,7 @@
 ! FV3 resolution and path to oro files for restart/perturbation conversion
 
   tile_size = 96
-  tile_path = "/scratch1/NCEPDEV/stmp2/Michael.Barlage/models/vector/v2t_data/tile_files/C96.mx100_frac/"
+  tile_path = "/data/land-release/v2t_data/tile_files/C96.mx100_frac/"
   tile_fstub = "oro_C96.mx100"
   
 !------------------- only restart conversion -------------------
@@ -18,19 +18,19 @@
   restart_date = "2019-09-30 23:00:00"
   
 ! Path for static file  
-  static_filename="/scratch1/NCEPDEV/stmp2/Michael.Barlage/forcing/C96/static/ufs-land_C96_static_fields.nc"
+  static_filename="/data/land-release/static/ufs-land_C96_static_fields.nc"
   
 ! Location of vector restart file (vector2tile direction)
 
-  vector_restart_path = "/scratch1/NCEPDEV/stmp2/Michael.Barlage/models/vector/v2t_data/restart/"
+  vector_restart_path = "/data/land-release/v2t_data/restart/"
   
 ! Location of tile restart files (tile2vector direction)
 
-  tile_restart_path = "/scratch1/NCEPDEV/stmp2/Michael.Barlage/models/vector/v2t_data/workshop/"
+  tile_restart_path = "/data/land-release/v2t_data/workshop/"
   
 ! Path for converted files; if same as tile/vector path, files may be overwritten
 
-  output_path = "/scratch1/NCEPDEV/stmp2/Michael.Barlage/models/vector/v2t_data/workshop/"
+  output_path = "/data/land-release/v2t_data/workshop/"
 
 !------------------- only perturbation mapping -------------------
 ! layout, options: 1x4, 4x1, 2x2, an input settings for generating the perturbation file
@@ -39,7 +39,7 @@
 
 ! input files
 
-  lndp_input_file = "/scratch2/NCEPDEV/land/data/DA/ensemble_pert/workg_T162_984x488.tileXX.nc"
+  lndp_input_file = "/data/land-release/ensemble_pert/workg_T162_984x488.tileXX.nc"
 
 ! output files
 
